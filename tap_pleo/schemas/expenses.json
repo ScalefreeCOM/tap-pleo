@@ -1,0 +1,126 @@
+{
+    "type": ["null", "object"],
+    "additionalProperties": false,
+    "properties": {
+    "string_field": {
+    "id": {
+        "type": ["null", "object"]
+    },
+    "employeeId": {
+        "type": ["null", "object"]
+    },
+    "departmentId": {
+        "type": ["null", "object"]
+    },
+    "performedAt": {
+        "type": ["null", "string"]
+    },
+    "amountOriginal": {
+        "type": ["null", "object"],
+        "properties": {
+        "value": {
+            "type": ["null", "number"]
+        },
+        "currency": {
+            "type": ["null", "string"]
+        }
+        }
+    },
+    "amountSettled": {
+        "type": ["null", "object"],
+        "properties": {
+        "value": {
+            "type": ["null", "number"]
+        },
+        "currency": {
+            "type": ["null", "string"]
+        }
+        }
+    },
+    "note": {
+        "type": "null"
+    },
+    "type": {
+        "type": ["null", "string"]
+    },
+    "accountId": {
+        "type": ["null", "string"]
+    },
+    "tagIds": {
+        "type": ["null", "array"],
+        "items": {}
+    },
+    "lines": {
+        "type": ["null", "array"],
+        "items": [
+        {
+            "type": ["null", "object"],
+            "properties": {
+            "amountSettled": {
+                "type": ["null", "object"],
+                "properties": {
+                "value": {
+                    "type": ["null", "number"]
+                },
+                "currency": {
+                    "type": ["null", "string"]
+                }
+                }
+            },
+            "accountId": {
+                "type": ["null", "string"]
+            }
+            }
+        }
+        ]
+    },
+    "receiptIds": {
+        "type": ["null", "array"],
+        "items": {}
+    },
+    "cardTransaction": {
+        "type": ["null", "object"],
+        "properties": {
+        "state": {
+            "type": ["null", "string"]
+        },
+        "authorizedAt": {
+            "type": ["null", "string"]
+        },
+        "settledAt": {
+            "type": ["null", "string"]
+        },
+        "reversedAt": {
+            "type": "null"
+        },
+        "merchant": {
+            "type": ["null", "object"],
+            "properties": {
+            "id": {
+                "type": ["null", "string"]
+            },
+            "name": {
+                "type": ["null", "string"]
+            }
+            }
+        }
+        }
+    },
+    "status": {
+        "type": ["null", "string"]
+    },
+    "supplier": {
+        "type": ["null", "string"]
+    },
+    "createdAt": {
+        "type": ["null", "string"]
+    },
+    "updatedAt": {
+        "type": "string"
+    },
+    "deletedAt": {
+        "type": "null"
+    }
+    }
+}
+}

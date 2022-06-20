@@ -1,0 +1,17 @@
+{
+	"type": ["null", "object"],
+	"additionalProperties": false,
+	"properties": {
+	"string_field": {
+	  "currency": {
+		"type": ["null", "string"]
+	  },
+	  "current": {
+		"type": ["null", "number"]
+	  },
+	  "available": {
+		"type": ["null", "number"]
+	  }
+	}
+  }
+}

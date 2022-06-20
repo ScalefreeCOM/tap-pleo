@@ -1,0 +1,26 @@
+{
+	"type": ["null", "object"],
+	"additionalProperties": false,
+	"properties": {
+	"string_field": {
+	  "id": {
+		"type": ["null", "string"]
+	  },
+	  "accountNumber": {
+		"type": ["null", "string"]
+	  },
+	  "name": {
+		"type": ["null", "string"]
+	  },
+	  "taxCodeId": {
+		"type": ["null", "string"]
+	  },
+	  "accountCategoryId": {
+		"type": ["null", "string"]
+	  },
+	  "hidden": {
+		"type": ["null", "boolean"]
+	  }
+	}
+  }
+}

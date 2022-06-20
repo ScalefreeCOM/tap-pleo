@@ -1,0 +1,35 @@
+{
+	"type": ["null", "object"],
+	"additionalProperties": false,
+	"properties": {
+	"string_field": {
+	  "id": {
+		"type": ["null", "string"]
+	  },
+	  "firstName": {
+		"type": ["null", "string"]
+	  },
+	  "lastName": {
+		"type": ["null", "string"]
+	  },
+	  "email": {
+		"type": ["null", "string"]
+	  },
+	  "jobTitle": {
+		"type": "null"
+	  },
+	  "role": {
+		"type": ["null", "string"]
+	  },
+	  "phone": {
+		"type": ["null", "string"]
+	  },
+	  "avatar": {
+		"type": "null"
+	  },
+	  "teamId": {
+		"type": "null"
+	  }
+	}
+  }
+}

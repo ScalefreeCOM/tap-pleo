@@ -1,0 +1,38 @@
+{
+    "type": ["null", "object"],
+    "additionalProperties": false,
+    "properties": {
+    "string_field": {
+      "id": {
+        "type": ["null", "string"]
+      },
+      "name": {
+        "type": ["null", "string"]
+      },
+      "code": {
+        "type": "null"
+      },
+      "ingoingTaxAccount": {
+        "type": "null"
+      },
+      "outgoingTaxAccount": {
+        "type": "null"
+      },
+      "rate": {
+        "type": ["null", "number"]
+      },
+      "type": {
+        "type": ["null", "string"]
+      },
+      "enabled": {
+        "type": ["null", "boolean"]
+      },
+      "createdAt": {
+        "type": ["null", "string"]
+      },
+      "updatedAt": {
+        "type": ["null", "string"]
+      }
+    }
+  }
+}

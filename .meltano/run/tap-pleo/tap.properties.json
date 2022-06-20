@@ -1,0 +1,538 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "accounts",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "string_field": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "datetime_field": {
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "integer_field": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "double_field": {
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": [
+          "null",
+          "object"
+        ],
+        "additionalProperties": false
+      },
+      "stream": "accounts",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "string_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "datetime_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "integer_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "double_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        }
+      ],
+      "selected": true
+    },
+    {
+      "tap_stream_id": "balance",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "string_field": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "datetime_field": {
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "integer_field": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "double_field": {
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": [
+          "null",
+          "object"
+        ],
+        "additionalProperties": false
+      },
+      "stream": "balance",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "string_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "datetime_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "integer_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "double_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        }
+      ],
+      "selected": true
+    },
+    {
+      "tap_stream_id": "employees",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "string_field": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "datetime_field": {
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "integer_field": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "double_field": {
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": [
+          "null",
+          "object"
+        ],
+        "additionalProperties": false
+      },
+      "stream": "employees",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "string_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "datetime_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "integer_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "double_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        }
+      ],
+      "selected": true
+    },
+    {
+      "tap_stream_id": "expenses",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "string_field": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "datetime_field": {
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "integer_field": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "double_field": {
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": [
+          "null",
+          "object"
+        ],
+        "additionalProperties": false
+      },
+      "stream": "expenses",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "string_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "datetime_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "integer_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "double_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        }
+      ],
+      "selected": true
+    },
+    {
+      "tap_stream_id": "tag-groups",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "string_field": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "datetime_field": {
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "integer_field": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "double_field": {
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": [
+          "null",
+          "object"
+        ],
+        "additionalProperties": false
+      },
+      "stream": "tag-groups",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "string_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "datetime_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "integer_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "double_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        }
+      ],
+      "selected": true
+    },
+    {
+      "tap_stream_id": "tax-codes",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "string_field": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "datetime_field": {
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "integer_field": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "double_field": {
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": [
+          "null",
+          "object"
+        ],
+        "additionalProperties": false
+      },
+      "stream": "tax-codes",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "string_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "datetime_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "integer_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "double_field"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        }
+      ],
+      "selected": true
+    }
+  ]
+}
