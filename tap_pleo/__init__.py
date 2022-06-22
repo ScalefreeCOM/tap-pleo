@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import os
 import json
-from pickle import NEXT_BUFFER
 from sqlite3 import threadsafety
 import singer
 from singer import utils, metadata, metrics
