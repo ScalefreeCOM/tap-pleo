@@ -1,4 +1,6 @@
-# tap-pleo
+# tap-pleo by [Scalefree International GmbH](https://www.scalefree.com)
+
+<img src="https://user-images.githubusercontent.com/78537603/191483803-8cd4fc72-54a1-45f6-ab39-d798ec83e4c9.jpg" width=50% align=right>
 
 This is a [Singer](https://singer.io) tap that produces JSON-formatted data
 following the [Singer
